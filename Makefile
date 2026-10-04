@@ -33,7 +33,7 @@ test:
 	$(PYTHON) -m pytest backend/auth-service
 	$(PYTHON) -m pytest backend/student-service
 	$(PYTHON) -m pytest backend/assessment-service
-	$(PYTHON) -m pytest backend/ai-career-service
+	cd backend/ai-career-service && $(PYTHON) -m pytest
 	$(PYTHON) -m pytest backend/roadmap-service
 	$(PYTHON) -m pytest backend/institution-service
 	$(PYTHON) -m pytest backend/admin-analytics-service
