@@ -1,9 +1,11 @@
 .PHONY: help up down restart logs build test dev-install
 
+PYTHON ?= python3
+
 help:
 	@echo "Udaan AI - Makefile Commands"
 	@echo "----------------------------"
-	@echo "  make up          : Start all services using Docker Compose"
+	@echo "  make up          : Build service images and start all services"
 	@echo "  make down        : Stop all services using Docker Compose"
 	@echo "  make restart     : Restart all Docker Compose services"
 	@echo "  make logs        : View logs for all services"
@@ -11,7 +13,7 @@ help:
 	@echo "  make test        : Run pytest health tests across all services"
 
 up:
-	docker compose up -d
+	docker compose up -d --build
 
 down:
 	docker compose down
@@ -27,11 +29,11 @@ build:
 
 test:
 	@echo "Running backend health tests..."
-	python -m pytest backend/api-gateway
-	python -m pytest backend/auth-service
-	python -m pytest backend/student-service
-	python -m pytest backend/assessment-service
-	python -m pytest backend/ai-career-service
-	python -m pytest backend/roadmap-service
-	python -m pytest backend/institution-service
-	python -m pytest backend/admin-analytics-service
+	$(PYTHON) -m pytest backend/api-gateway
+	$(PYTHON) -m pytest backend/auth-service
+	$(PYTHON) -m pytest backend/student-service
+	$(PYTHON) -m pytest backend/assessment-service
+	$(PYTHON) -m pytest backend/ai-career-service
+	$(PYTHON) -m pytest backend/roadmap-service
+	$(PYTHON) -m pytest backend/institution-service
+	$(PYTHON) -m pytest backend/admin-analytics-service
