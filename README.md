@@ -564,3 +564,88 @@ These are historical results, not a claim that tests were re-run for this wordin
 The current Compose setup is for local development. It exposes service ports and runs Vite's development server.
 
 For deeper explanations, choose one of the eight service guides above. Each starts with its purpose and an example, followed by a flowchart, checks and a developer reference.
+
+### Student application and career exploration
+
+#### Authorization and account access
+
+![UdaanAI authorization](screenshots/authorization.png)
+
+#### Student dashboard
+
+![UdaanAI dashboard](screenshots/dashboard.png)
+
+![UdaanAI dashboard — alternate view](screenshots/dashboard2.png)
+
+#### Student profile and assessment results
+
+![Student profile](screenshots/studentProfile.png)
+
+![Profile review](screenshots/profilereview.png)
+
+![Assessment result](screenshots/latestResultSwagger.png)
+
+#### Discover strengths and career direction
+
+![Discover strengths and weaknesses](screenshots/discoverStrengthsWeakness.png)
+
+![Self-discover career direction](screenshots/selfDiscoverCareerDirection.png)
+
+![Choose career direction](screenshots/chooseCareerDirection.png)
+
+![Career guidance](screenshots/careerGuidance.png)
+
+![Structured guidance](screenshots/structuredGuidance.png)
+
+![Explore education steps](screenshots/exploreEducationSteps.png)
+
+![Explore Karnataka career path](screenshots/exploreKarnatakaCareerPath.png)
+
+![Educational map](screenshots/educationalMap.png)
+
+#### Career roadmaps and progress
+
+![Career roadmap](screenshots/careerroadmap.png)
+
+![Career roadmap — alternate view](screenshots/roadmap2.png)
+
+![Career roadmap completion](screenshots/careerroadmapcompletion.png)
+
+![Completed steps](screenshots/completedStepsPolytechni.png)
+
+#### Workshop topics and request flow
+
+![Workshop topics](screenshots/workshoptopics.png)
+
+![Successful response story](screenshots/successfulResponseStory.png)
+
+![User registration request completed with cURL](screenshots/userRegisteredSuccessfullyCurl.png)
+
+### Backend and API documentation
+
+The following screenshots show API documentation and example responses for backend services.
+
+![Assessment service Swagger](screenshots/assessmentServiceSwagger.png)
+
+![Get assessment Swagger endpoint](screenshots/getAssessmentSwagger.png)
+
+![Get health Swagger endpoint](screenshots/getHealthSwagger.png)
+
+![Get health Swagger endpoint — alternate view](screenshots/getHealthSwagger2.png)
+
+![Schemas in Swagger](screenshots/SchemasSwagger.png)
+
+### Docker and terminal
+
+![Docker setup](screenshots/docker.png)
+
+![Backend screenshot 1](screenshots/backend1.png)
+
+![Backend screenshot 2](screenshots/backend2.png)
+
+![Backend screenshot 3](screenshots/backend3.png)
+
+![Terminal output](screenshots/terminal.png)
+
+![Dark mode](screenshots/darkmode2.png)
+
